@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://i.hizliresim.com/dqiEVl.png");
+}
+/* NAVİGATİON MENU */
+#genel{
+    width:960px;
+    margin:auto;
+    margin-top:100px;
+    padding:10px;
+    border:5px solid #00909e;
+    background-color:white;
+}
+h1{
+    color:#e25822;
+    border-bottom:2px solid #1b2a49;
+}
+h2{
+     color:#e25822;
+}
+p{
+    text-align:justify;
+    line-height:2;
+}
+#cerceve
+{
+     border-bottom:5px solid #1b2a49;
+}
+a{
+    text-decoration:none;
+    margin-right:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+a:hover{
+  color:#e25822;
+  text-decoration:underline;
+}
+#link{
+    text-align:center;
+    border-bottom:5px solid #1b2a49;
+}

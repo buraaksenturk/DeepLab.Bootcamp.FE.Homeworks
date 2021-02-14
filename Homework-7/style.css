@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+
+header{
+    width: 100%;
+    height: 230px;
+    background: #E9ECEF;
+}
+
+/*header top menu start*/
+.header-menu{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2rem 0 auto;
+    flex-direction: row;
+}
+
+.header-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header-menu li{
+    margin-left: 10px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.header-menu li a{
+    color: orange;
+}
+
+/*header top menu end*/
+
+/*logo*/
+
+.logo{
+    width: 125px;
+    margin-left: 5%;
+    position: relative;
+    bottom: 25px;
+}
+
+/*header navbar*/
+.navbar{
+    position: relative;
+    bottom: 35px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 4rem;
+}
+
+.navbar li a{
+    color: rgba(0,0,0,0.85);
+}
+
+.navbar li i{
+    color: darkorange;
+    margin-right: 5px;
+}
+
+.collapse-button{
+    border: none;
+  background: transparent;
+}
+
+.collapse-button:focus{
+  border: none;
+  background: transparent;
+  outline: none !important;
+}
+
+.navbar ul li:first-of-type{
+    justify-content: flex-end;
+}
+.close-button{
+    border: none;
+    cursor: pointer;
+  background: transparent;
+}
+/*header-navbar end*/
+
+/*colors*/
+.colors{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    bottom: 45px;
+}
+
+.colors ul{
+    display: flex;
+}
+
+.colors li{
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.colors .color{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.red{
+    background-color: red;
+}
+
+.dark-orange{
+    background-color: darkorange;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.light-green{
+    background-color: lightgreen;
+}
+
+.green{
+    background-color: green;
+}
+
+.light-blue-green{
+    background-color: #02ff9a;
+}
+
+.aqua{
+    background-color: #02ffde;
+}
+
+.lighter-blue{
+    background-color: #02a7ff;
+}
+
+.light-blue{
+    background-color: #024eff;
+}
+
+.blue{
+    background-color: #0602ff;
+}
+
+.blue-purple{
+    background-color: #6c02ff;
+}
+
+.purple{
+    background-color: #af02ff;
+}
+
+.pink{
+    background-color: #ff02e2;
+}
+
+.dark-pink{
+    background-color: #ff0296;
+}
+
+.darker-pink{
+    background-color: #ff026c;
+}
+
+.red-pink{
+    background-color: #ff0246;
+}
+
+.light-red{
+    background-color: #ff0220;
+}
+
+/* card header text */
+/*card 1 start*/
+.students{
+    background-color: rgba(255,176,73,0.1);
+    color: darkorange;
+}
+.bold{
+    font-weight: bold;
+}
+.students ~ img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+/*card 1 end*/
+
+/*card 2 start*/
+.konvent{
+    background-color: rgba(248,111,255,0.3);
+    color: purple;
+}
+.konvent ~ img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+/*card 2 end*/
+
+/*card 3 start*/
+.presse{
+    background-color: #e0f2f1;
+    color: #009688;
+}
+.presse ~ img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+/*card 3 end*/
+
+
+hr{
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    width: calc(100% - 3rem);
+    margin: 1rem auto;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1752px){
+    .navbar ul li{
+        margin-left: 3rem !important;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .navbar ul li{
+        margin-left: 2rem !important;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    .colors{
+        margin: 0 !important;
+    }
+    .colors .color{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    header{
+        height: 150px !important;
+    }
+    .navbar{
+        background-color: gray;
+        width: 100%;
+        position: relative;
+        top: 25px;
+        transition: all .4s linear;
+        z-index: 9999;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .navbar ul li{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-left: 0 !important;
+    }
+    .navbar ul li i{
+        width: 45px;
+    }
+    .navbar li a{
+        width: 200px;
+    }
+    .logo{
+        bottom: 0;
+        top: 30px;
+    }
+
+    .colors{
+        bottom: 0;
+        top: 25px;
+    }
+
+    .collapse-button{
+        display: flex;
+        width: 100px;
+        text-align: end;
+        margin: 0 0 0 auto;
+        position: relative;
+        bottom: 25px;
+    }
+
+    button:focus, button:active{
+        border: none;
+        outline: none;
+    }
+}

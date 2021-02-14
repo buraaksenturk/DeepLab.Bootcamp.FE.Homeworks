@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+body{
+    margin-left: 20px;
+    background: linear-gradient( rgba(8, 8, 10, 0.9),rgba(0, 0, 0, 0.9)),url("https://www.icerik.net/dosyalar/blog/2019/08/9ede66290179b5803a620e25a04a9cae.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+span{
+    color: white;
+    font-size: 15px;
+}
+input[type="text"], input[type="email"],input[type="number"]{
+    width: 95%;
+}
+select{
+    width: 96%;
+    color: gray;
+}
+.submit{
+    display: inline-block;
+    width: 95%;
+    height: 35px;
+    background-color: rgb(51, 179, 104);
+    color: white;
+    font-size: 20px;
+    border-style: hidden;
+    border-radius: 5px;
+}
